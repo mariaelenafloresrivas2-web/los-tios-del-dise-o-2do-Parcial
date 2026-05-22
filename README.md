@@ -1,1 +1,0 @@
-# los-tios-del-dise-o-2do-Parcial
