@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad Administrativa</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <div class="barra-superior">
+        Unidad Administrativa
+    </div>
+
+    <div class="titulo">
+        UNIDAD ADMINISTRATIVA
+    </div>
+
+    <div class="panel">
+
+        <div class="fila">
+            <label>Unidad Administrativa:</label>
+            <input type="text" id="inputCodigo" placeholder="Ej: 025">
+        </div>
+
+        <div class="fila">
+            <label>Ciudad:</label>
+            <input type="text" id="inputCiudad" placeholder="Ej: LA PAZ">
+        </div>
+
+        <div class="fila">
+            <label>Descripción:</label>
+            <textarea id="inputDescripcion" placeholder="Descripción..."></textarea>
+        </div>
+
+        <div class="botones">
+            <button class="grabar" id="btnGrabar">Grabar</button>
+            <button class="salir"  id="btnSalir">Salir</button>
+        </div>
+
+    </div>
+
+    <!-- Ventana modal de confirmación -->
+    <div class="ventana" id="ventanaModal" style="display:none;">
+        <div class="ventana-titulo">
+            VSIAF
+            <span id="btnCerrarModal">X</span>
+        </div>
+        <div class="contenido-ventana">
+            <div class="mensaje">
+                <div class="icono" id="iconoModal">i</div>
+                <span id="textoModal">Los datos fueron ingresados correctamente</span>
+            </div>
+            <button class="aceptar" id="btnAceptar">Aceptar</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="script6.js"></script>
+</body>
+</html>
