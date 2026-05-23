@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contenedor{
+    width: 1100px;
+    background: white;
+    border: 1px solid #999;
+    padding-bottom: 25px;
+}
+
+.header{
+    height: 150px;
+    background: linear-gradient(to bottom, #0f2740, #1f6bb1);
+    border-top: 12px solid #222;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.logo h1{
+    color: white;
+    font-size: 75px;
+    letter-spacing: 5px;
+}
+
+.logo span{
+    color: white;
+    font-size: 28px;
+}
+
+
+.info{
+    padding: 25px 40px;
+    font-size: 28px;
+    color: #444;
+}
+
+.info p{
+    margin-bottom: 10px;
+}
+
+.info strong{
+    color: #0d3d72;
+}
+
+.barra-titulo-superior{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.barra-titulo{
+    background: linear-gradient(to bottom, #3b8ad0, #0d3d72);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.tabla-contenedor{
+    width: 90%;
+    margin: 35px auto;
+    border: 2px solid #555;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background: #004f9e;
+    color: white;
+}
+
+th{
+    border: 2px solid #555;
+    padding: 12px;
+    font-size: 26px;
+}
+
+td{
+    border: 1px solid #555;
+    height: 45px;
+}
+
+
+.botones{
+    width: 85%;
+    margin: auto;
+    border: 2px solid #b8b8b8;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #f3f3f3;
+}
+
+.botones button{
+    width: 170px;
+    padding: 12px;
+    font-size: 24px;
+    color: white;
+    border: 2px solid #777;
+    cursor: pointer;
+    background:linear-gradient(to bottom,#2484b4,#00131d);
+}
+
+.botones button:hover{
+    opacity: 0.9;
+}
