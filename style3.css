@@ -6,7 +6,8 @@
 }
 
 body{
-    background: #cfe8ef;
+    background: white;
+
 }
 
 .barra-negra{
@@ -19,7 +20,7 @@ body{
 }
 
 .contenedor{
-    width: 1200px;
+    width: 1000px;
     margin: 20px auto;
     background: #f0f0f0;
     border: 2px solid #999;
