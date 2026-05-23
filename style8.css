@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif ;
+    background: #cfe0e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.barra-superior {
+    background: linear-gradient(#0a0a0a, #1c1c1c);
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #6b7c86;
+    letter-spacing: 1px;
+}
+
+.contenedor {
+    width: 500px;
+    background: #e9eef1;
+    border: 2px solid #6b7c86;
+    box-shadow: 2px 2px 8px rgba(47, 194, 204, 0.3);
+}
+
+.titulo {
+    background: linear-gradient(#3c6f94, #2a5573);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #6b7c86;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.fila {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.fila label {
+    width: 100px;
+    font-weight:bold;
+    color: #2f4f5f;
+    
+}
+
+select,input {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #7a8b95;
+}
+
+.botones {
+    text-align: center;
+    margin-top: auto;
+}
+
+.btn {
+    background:linear-gradient(to bottom,#2484b4,#00131d);
+    color: white;
+    border-color: white;
+    padding: 4px 25px;
+    margin: 5px;
+    cursor: pointer;
+}
